@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.header {
+  height: 700px;
+  border: 2px solid red;
+  background-image: url(https://a0.muscache.com/im/pictures/9b4919ad-8b4d-4246-ab59-aaed7b1b9d37.jpg?im_w=1200);
+  background-repeat: no-repeat;
+  background-size: 100% 85%;
+}
+
+.head-one {
+  border: 2px solid red;
+  height: 70px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+}
+
+.air-bnb {
+  font-size: 28px;
+  font-weight: bold;
+  flex: 2;
+}
+
+.box-big {
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-right {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+
+}
+
+.k-1 {
+  padding: 13px 13px;
+  border: 2px solid rgb(24, 8, 8);
+}
+
+.two-icons {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 12px;
+  border: 2px solid red;
+}
+
+.two-icons i {
+  color: grey;
+  border: 2px solid red;
+  padding: 2px 4px;
+}
+
+.box-right .k-1:hover {
+  background-color: rgba(156, 151, 151, 0.2);
+  border-radius: 25px;
+}
+
+.head-two {
+  background-color: white;
+  border-radius: 100px;
+  height: 65px;
+  width: 60%;
+  margin: 15px auto;
+  display: flex;
+}
+
+.location span {
+  display: block;
+}
+
+.check-in span {
+  display: block;
+
+}
+
+.check-out span {
+  display: block;
+
+}
+
+.guests span{
+  display: block;
+}
+
+.location {
+  flex: 2.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.check-in {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.check-out {
+  flex: 1;
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
+
+}
+
+.guests {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
