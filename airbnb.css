@@ -11,7 +11,7 @@ body {
 
 .header {
   height: 700px;
-  background-image: url(https://a0.muscache.com/im/pictures/9b4919ad-8b4d-4246-ab59-aaed7b1b9d37.jpg?im_w=1200);
+  background-image: url(https://a0.muscache.com/im/pictures/cf39f4c4-e860-43d4-85be-deddd7b2da90.jpg?im_w=1440);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -124,7 +124,6 @@ body {
 }
 
 .section {
-  border: 2px solid rgb(0, 0, 0);
   height: 500px;
 }
 
@@ -163,7 +162,6 @@ p {
 }
 
 .black-head {
-  border: 2px solid black;
   background-color: black;
 }
 
@@ -178,8 +176,9 @@ p {
 
 .mir-div {
   width: 89%;
-  margin: 35px auto 10px auto;
+  margin: 0 auto 10px auto;
   line-height: 35px;
+  padding-top: 35px;
 }
 
 .img-div {
@@ -236,4 +235,41 @@ p {
 .p-tag {
   font-size: 17px;
   font-weight: bold;
+}
+
+.footer {
+  border-top: 2px solid  rgb(185, 184, 184);
+  height: 100vh;
+  background-color:  rgb(238, 238, 238);
+}
+
+.qator-big {
+  display: flex;
+  justify-content: space-between;
+  height: 60%;
+  width: 90%;
+  margin: 50px auto 0 auto;
+}
+
+.qator {
+  border: 2px solid rgb(160, 160, 160);
+  width: 23%;
+}
+
+.soob{
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.onas {
+  font-size: 15px;
+  line-height: 38px;
+  cursor: pointer;
+}
+
+.foot-end {
+  border: 2px solid rgb(160, 160, 160);
+  display: flex;
+  justify-content: space-between;
 }
